@@ -1,14 +1,9 @@
 # Infrastructure as Code Talk
 
-This repo contains the sample code for the talk [Infrastructure-as-code: running microservices on AWS with Docker,
-Terraform, and ECS](http://www.ybrikman.com/writing/2016/03/31/infrastructure-as-code-microservices-aws-docker-terraform-ecs/).
+This repo contains the sample code for the talk
 It includes a couple sample Dockerized microservices and the Terraform code to deploy them on AWS:
 
 ![Architecture](/_docs/architecture.png)
-
-**Note**: This repo is for demonstration purposes only and should NOT be used to run anything important. For
-production-ready version of this code and many other types of infrastructure, check out 
-[Gruntwork](http://www.gruntwork.io/).
 
 
 
@@ -80,13 +75,3 @@ Here's an overview of what's in this repo:
    URLs between services. We are using the same environment variables as Docker Links, so this acts as a simple
    "service discovery" mechanism that works in both dev and prod.
 
-
-
-
-## More info
-
-For more info, check out the talk [Infrastructure-as-code: running microservices on AWS with Docker, Terraform, and
-ECS](http://www.ybrikman.com/writing/2016/03/31/infrastructure-as-code-microservices-aws-docker-terraform-ecs/),
-including [the video](https://vimeo.com/167706949) and
-[slides](http://www.slideshare.net/brikis98/infrastructure-as-code-running-microservices-on-aws-using-docker-terraform-and-ecs?ref=http://www.ybrikman.com/writing/2016/03/31/infrastructure-as-code-microservices-aws-docker-terraform-ecs/).
-For a deeper look at Terraform, check out the book *[Terraform: Up & Running](http://www.terraformupandrunning.com/)*.
