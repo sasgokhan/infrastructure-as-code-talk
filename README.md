@@ -3,8 +3,6 @@
 This repo contains the sample code for the talk
 It includes a couple sample Dockerized microservices and the Terraform code to deploy them on AWS:
 
-![Architecture](/_docs/architecture.png)
-
 
 
 ## Quick start
